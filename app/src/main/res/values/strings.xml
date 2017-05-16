@@ -1,4 +1,5 @@
 <resources>
   <string name="app_name">ConstraintLayoutDemo</string>
   <string name="title_activity_profile_view">ProfileView</string>
+  <string name="title_activity_profile_view2">ProfileViewActivity2</string>
 </resources>
