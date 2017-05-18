@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity {
     Intent profileViewIntent = new Intent(MainActivity.this, ProfileViewActivity.class);
     startActivity(profileViewIntent);
   }
+
+  @OnClick(R.id.profile_page_with_scroll)
+  public void goToProfileScrollView() {
+    Intent profileViewIntent = new Intent(MainActivity.this, ProfileViewScrollActivity.class);
+    startActivity(profileViewIntent);
+  }
 }

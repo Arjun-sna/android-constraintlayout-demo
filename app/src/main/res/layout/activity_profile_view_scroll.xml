@@ -15,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:padding="12.7dp"
         >
       <android.support.v7.widget.Toolbar
           android:id="@+id/toolbar"
@@ -25,6 +24,9 @@
           app:layout_constraintLeft_toLeftOf="parent"
           app:layout_constraintRight_toRightOf="parent"
           app:layout_constraintTop_toTopOf="parent"
+          app:title="Profile"
+          app:titleTextColor="@android:color/white"
+          app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
           />
       <in.arjunsn.constraintlayoutdemo.RoundedImageView
           android:id="@+id/profile_image"
@@ -32,6 +34,7 @@
           android:layout_height="90dp"
           android:scaleType="centerCrop"
           android:src="@drawable/kungfupanda"
+          android:layout_marginLeft="12.7dp"
           app:layout_constraintDimensionRatio="1:1"
           app:layout_constraintLeft_toLeftOf="parent"
           app:layout_constraintTop_toBottomOf="@+id/toolbar"
@@ -45,20 +48,22 @@
           android:textColor="@android:color/white"
           android:textSize="17sp"
           android:textStyle="bold"
-          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintLeft_toLeftOf="@+id/profile_image"
           app:layout_constraintTop_toBottomOf="@+id/profile_image"
           />
       <TextView
           android:id="@+id/about_text"
-          android:layout_width="wrap_content"
+          android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_marginTop="13dp"
           android:text="@string/about_me"
           android:textColor="@android:color/white"
           android:textSize="13sp"
-          app:layout_constraintLeft_toLeftOf="parent"
-          app:layout_constraintRight_toRightOf="parent"
+          android:layout_marginBottom="12.7dp"
+          app:layout_constraintLeft_toLeftOf="@+id/profile_name"
+          app:layout_constraintRight_toRightOf="@+id/following_label"
           app:layout_constraintTop_toBottomOf="@+id/profile_name"
+          app:layout_constraintBottom_toBottomOf="parent"
           />
 
       <TextView
@@ -80,6 +85,7 @@
           android:layout_height="wrap_content"
           android:text="Following"
           android:textAlignment="center"
+          android:layout_marginRight="12.7dp"
           android:textColor="@android:color/white"
           android:textSize="17sp"
           app:layout_constraintRight_toRightOf="parent"
