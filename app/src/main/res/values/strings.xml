@@ -2,4 +2,6 @@
   <string name="app_name">ConstraintLayoutDemo</string>
   <string name="title_activity_profile_view">ProfileView</string>
   <string name="title_activity_profile_view2">ProfileViewActivity2</string>
+  <string name="title_activity_profile_view_scroll">ProfileViewScrollActivity</string>
+  <string name="about_me">It’s not who I am underneath, but what I do that defines me. I am the dark knight.</string>
 </resources>
