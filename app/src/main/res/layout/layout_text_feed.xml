@@ -9,18 +9,31 @@
     android:layout_height="match_parent">
   <android.support.constraint.ConstraintLayout
       android:orientation="vertical"
-      android:padding="10dp"
+      android:layout_marginTop="10dp"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
-
+    <android.support.constraint.Guideline
+        android:id="@+id/left_margin_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05"
+        />
+    <android.support.constraint.Guideline
+        android:id="@+id/right_margin_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95"
+        />
     <include
         android:id="@+id/header_part"
         layout="@layout/feed_header"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/left_margin_guide"
+        app:layout_constraintRight_toLeftOf="@+id/right_margin_guide"
         />
 
     <TextView
@@ -30,17 +43,21 @@
         android:text="@string/about_me"
         android:textSize="16sp"
         android:textColor="#333333"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
         app:layout_constraintTop_toBottomOf="@+id/header_part"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/left_margin_guide"
+        app:layout_constraintRight_toLeftOf="@+id/right_margin_guide"
+        app:layout_constraintBottom_toTopOf="@+id/feed_footer"
         />
-    <include layout="@layout/feed_footer"
+    <include
+        android:id="@+id/feed_footer"
+        layout="@layout/feed_footer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/post_content_text"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         />
   </android.support.constraint.ConstraintLayout>
