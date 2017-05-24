@@ -7,8 +7,8 @@
     android:layout_height="match_parent">
   <in.arjunsn.constraintlayoutdemo.RoundedImageView
       android:id="@+id/profile_picture"
-      android:layout_width="60dp"
-      android:layout_height="60dp"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
       android:src="@drawable/kungfupanda"
       android:layout_marginRight="10dp"
       app:layout_constraintLeft_toLeftOf="parent"
