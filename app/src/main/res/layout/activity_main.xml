@@ -20,4 +20,11 @@
       android:text="Profile Scroll View"
       app:layout_constraintTop_toBottomOf="@+id/profile_page"
       />
+  <Button
+      android:id="@+id/feed_page"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Feed view demo"
+      app:layout_constraintTop_toBottomOf="@+id/profile_page_with_scroll"
+      />
 </android.support.constraint.ConstraintLayout>

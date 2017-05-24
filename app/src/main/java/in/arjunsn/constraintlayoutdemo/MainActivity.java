@@ -25,4 +25,10 @@ public class MainActivity extends AppCompatActivity {
     Intent profileViewIntent = new Intent(MainActivity.this, ProfileViewScrollActivity.class);
     startActivity(profileViewIntent);
   }
+
+  @OnClick(R.id.feed_page)
+  public void goToFeedPage() {
+    Intent feedViewIntent = new Intent(MainActivity.this, FeedActivity.class);
+    startActivity(feedViewIntent);
+  }
 }
