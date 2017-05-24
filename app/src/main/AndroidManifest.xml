@@ -29,6 +29,11 @@
         android:label="@string/title_activity_profile_view_scroll"
         android:theme="@style/AppTheme">
     </activity>
+    <activity
+        android:name=".FeedActivity"
+        android:label="@string/title_activity_feed"
+        android:theme="@style/AppTheme">
+    </activity>
   </application>
 
 </manifest>
