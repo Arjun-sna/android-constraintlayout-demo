@@ -42,11 +42,14 @@
         android:orientation="vertical"
         >
       <include layout="@layout/layout_text_feed" />
+      <include layout="@layout/layout_image_feed" />
       <include layout="@layout/layout_text_feed" />
+      <include layout="@layout/layout_image_feed" />
       <include layout="@layout/layout_text_feed" />
+      <include layout="@layout/layout_image_feed" />
       <include layout="@layout/layout_text_feed" />
-      <include layout="@layout/layout_text_feed" />
-      <include layout="@layout/layout_text_feed" />
+      <include layout="@layout/layout_image_feed" />
+
     </LinearLayout>
   </ScrollView>
 </android.support.constraint.ConstraintLayout>

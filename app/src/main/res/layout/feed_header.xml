@@ -9,7 +9,7 @@
       android:id="@+id/profile_picture"
       android:layout_width="50dp"
       android:layout_height="50dp"
-      android:src="@drawable/kungfupanda"
+      android:src="@drawable/profile"
       android:layout_marginRight="10dp"
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintTop_toTopOf="parent"
