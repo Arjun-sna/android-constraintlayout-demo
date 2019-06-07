@@ -10,4 +10,4 @@ Demo usage various ConstraintLayout features like
 - Control linear groups with a chain
 
 ### Demo views
-<img src="https://rawgit.com/Arjun-sna/Arjun-sna.github.io/master/raw/constraintlayoutdemo1.png" width="200" />  <img src="https://rawgit.com/Arjun-sna/Arjun-sna.github.io/master/raw/constraintlayoutdemo2.png" width="200" />  <img src="https://rawgit.com/Arjun-sna/Arjun-sna.github.io/master/raw/constrainlayout_demo3.png" width="200" />  <img src="https://rawgit.com/Arjun-sna/Arjun-sna.github.io/master/raw/constraintlayout_demo4.png" width="200" />
+<img src="https://i.imgur.com/ptGjRcl.png" width="200" />  <img src="https://i.imgur.com/pwaLOw6.png" width="200" />  <img src="https://i.imgur.com/sOEqbOV.png" width="200" />  <img src="https://i.imgur.com/cfvCZxm.png" width="200" />
